@@ -47,7 +47,6 @@ module.exports = function (context, eventGridEvent, blob) {
 
             return Promise.all([promise1, promise2]);
         }).then(() => {
-            context.log('it seems everythings done');
             context.done();
         })
         .catch(err => {
