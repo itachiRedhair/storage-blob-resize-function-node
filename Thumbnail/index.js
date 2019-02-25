@@ -70,3 +70,4 @@ const addBlobToAzureBlobStorage = (buffer, containerName, blobName) => {
         });
     });
 };
+
